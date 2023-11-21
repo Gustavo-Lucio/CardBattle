@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txtNomeHeroi"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:text="Nome do Herói"
+            android:layout_weight="2"
+            android:fontFamily="@font/new_rocker"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/txtAtaqueHeroi"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textSize="15sp"
+            android:text="Ataque Herói"
+            android:layout_weight="2"
+            android:fontFamily="@font/new_rocker"
+            android:textColor="@color/design_default_color_error"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/txtDefesaHeroi"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textSize="15sp"
+            android:text="Defesa Herói"
+            android:layout_weight="2"
+            android:fontFamily="@font/new_rocker"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MainActivity"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/new_rocker"
+        android:text="Deck de Heróis!"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+    
+    <Button
+        android:id="@+id/btnNovoCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nova Carta!"
+        android:layout_gravity="center"
+        android:fontFamily="@font/new_rocker"
+        android:textSize="25sp" />
+    
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvCards"
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        android:layout_marginTop="5dp" />
+
+</LinearLayout>
